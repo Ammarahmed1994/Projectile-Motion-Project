@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body::after {
+    content: "";
+    background: url(https://cdn.hipwallpaper.com/i/20/6/MJfjbL.jpg);
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+h1 {
+    color: red
+}
+
+#myCanvas {
+    border: 2px solid;
+    background-color: yellow;
+}
+
+#floatRight {
+    float: right;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Times New Roman', serif;
+    font-weight: 1000;
+}
